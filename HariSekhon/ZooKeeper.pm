@@ -65,7 +65,7 @@ our $DATA_READ_LEN = 500;
 # ZooKeeper Client Port
 our $ZK_DEFAULT_PORT = 2181;
 set_port_default($ZK_DEFAULT_PORT);
-our @zk_valid_states = qw/leader follower standalone/;
+our @zk_valid_states = qw/leader follower observer standalone/;
 
 env_creds("ZOOKEEPER");
 
